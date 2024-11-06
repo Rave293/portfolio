@@ -1,0 +1,161 @@
+*{
+    margin: 0%;
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.641);
+}
+.header{
+    display:flex;
+    justify-content: space-between;
+}
+.header h1{
+    background-color: white;
+    color: rgb(20, 20, 19);
+    border-radius: 6px;
+    width: 300px;
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+.header a{
+    text-decoration: none;
+    color: black;
+}
+h2{
+    background-color: white;
+    color: rgb(20, 20, 19);
+    border-radius: 6px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 1.9rem;
+    font-weight: 400;
+    font-family: sans-serif;
+
+}
+
+.container{
+display: grid;
+grid-template-columns: auto auto auto;
+padding: 7px;
+gap: 5px;
+margin-top: 20px;
+}
+
+.image-pro{
+    height: 360px;
+    width: 380px;
+}
+
+.proj-item { 
+text-align: center;
+}
+
+.proj-item:hover{
+    cursor: pointer;
+}
+
+
+#last-img{
+margin-top: 7px;
+}
+
+p{
+    font-size: 1rem;
+    font-family: sans-serif;
+    color: rgb(237, 236, 233);
+}
+
+button{
+    margin-top: 7px;
+    background-color: black;
+    width: 200px;
+    height: 50px;
+    border-radius: 4px;
+    color: white;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+@media only screen and (max-width:600px){
+
+    .header h1, h2{
+        font-size: 1.3rem;
+    }
+    .header h1{
+        width: 7rem;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+
+    }
+    p{
+        font-size: 0.9rem;
+        padding: 5px;
+    }
+    button{
+        width: 7rem;
+        height: 2rem;
+        font-size: 0.8rem;
+    }
+    .image-pro{
+        height: 10rem;
+        width: 9rem;
+    }
+}
+
+/* FOR LARGE SCREEN */
+@media only screen and  (min-width:601px) and (max-width:768px){
+    .header h1, h2{
+        font-size: 1.3rem;
+    }
+    .header h1{
+        width: 7rem;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+
+    }
+    p{
+        font-size: 0.9rem;
+        padding: 5px;
+    }
+    button{
+        width: 7rem;
+        height: 2rem;
+        font-size: 0.8rem;
+    }
+    .image-pro{
+        height: 10rem;
+        width: 9rem;
+    }
+}
+
+@media only  screen and  (min-width:769px) and  (max-width:1200px){
+    .header h1, h2{
+        font-size: 1.3rem;
+    }
+    .header h1{
+        width: 7rem;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+
+    }
+    p{
+        font-size: 0.9rem;
+        padding: 5px;
+    }
+    button{
+        width: 7rem;
+        height: 2rem;
+        font-size: 0.8rem;
+    }
+    .image-pro{
+        height: 10rem;
+        width: 9rem;
+    }
+}
